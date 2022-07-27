@@ -1,0 +1,159 @@
+/* Base Styles */
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 1.6em;
+  color: #b68d2c;
+}
+
+h2 {
+  font-family: cursive;
+  font-size: 1.3em;
+  color: #b68d2c;
+  text-align: center;
+}
+
+body {
+  background-color: rgb(81, 44, 247);
+
+}
+
+p {
+  padding: 10px;
+  margin: 0;
+}
+
+.container {
+  border: none;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+section {
+  border: 1px solid black;
+  background-color: #92ddbf;
+  width: 100%;
+  height: auto;
+  font-family: Helvetica;
+  color: black;
+  position: relative;
+  overflow: auto;
+}
+
+#chicken {
+  border: 1px solid black;
+  text-align: center;
+  width: 30%;
+  margin-left: 70%;
+  font-family: Georgia, sans-serif;
+  font-weight: bold;
+  font-size: 125%;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding: 5px;
+  background-color: #24e6c5;
+}
+
+#beef {
+  border: 1px solid black;
+  text-align: center;
+  width: 30%;
+  margin-left: 70%;
+  font-family: Georgia, sans-serif;
+  font-weight: bold;
+  font-size: 125%;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding: 5px;
+  background-color: #f78ae4;
+}
+
+#sushi {
+  border: 1px solid black;
+  text-align: center;
+  width: 30%;
+  margin-left: 70%;
+  font-family: Georgia, sans-serif;
+  font-weight: bold;
+  font-size: 125%;
+  margin-bottom: 0;
+  margin-top: 0;
+  background-color: #2560cc;
+  color: white;
+  padding: 5px;
+}
+
+#chicken-div {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+#beef-div {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+#sushi-div {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.navbar-brand {
+  font-size: 2em;
+  border: 0 0 10px 10px;
+  color: #f3fc7e;
+}
+
+#header-nav {
+  border: 0;
+  background-color: #8dd0eb;
+  color: #FFFFFF;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+.navbar-toggle {
+  position: relative;
+  float: right;
+  padding: 9px 10px;
+  margin: 8px 15px 8px;
+  background-color: transparent;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+.nav-header {
+  background-color: #FFFFFF;
+}
+
+.nav-brand {
+  color: #FFFFFF;
+  font-size: 1.5em;
+}
+
+#nav-list {
+  color: #ffbe39;
+}
+
+hr {
+  border-color: #ffbe39;
+}
+
+.item {
+  color: blue;
+  font-size: 1.2em;
+}
